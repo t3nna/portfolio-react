@@ -1,25 +1,54 @@
-import logo from './logo.svg';
-import './App.css';
+import './sass/main.scss'
+import Navigation from "./components/Navigation";
+import Footer from "./components/Footer";
+import Main, {MainWithCategories} from "./components/Main";
+import {Route, Routes, Outlet} from "react-router-dom";
+import Item from "./components/Item";
+import NotFound from "./components/NotFound";
+import {ThemeContext, ThemeProvider} from "./context/ThemeContext";
+import {useContext} from "react";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const {theme} = useContext(ThemeContext)
+    return (
+
+
+        <div className={theme}>
+
+            <div className={'theme-wrapper'}>
+                <Routes>
+                    <Route element={<Navigation/>}>
+                        {/*<Route path={'/'} element={<Navigation/>}>*/}
+                        <Route index element={<>
+
+                            <Main/>
+                            <Footer/>
+
+                        </>}/>
+
+                        <Route path={'/items/:name'} element={<Item/>}/>
+                        <Route path={'/categories'}>
+                            <Route path={'desk'} element={<>
+
+                                <MainWithCategories/>
+                                <Footer/>
+
+                            </>}/>
+                            <Route path={'backpack'} element={<>
+                                <MainWithCategories/>
+                                <Footer/>
+                            </>}/>
+                        </Route>
+
+                    </Route>
+                    <Route path={'*'} element={<NotFound/>}/>
+
+                </Routes>
+            </div>
+        </div>
+
+    );
 }
+
 
 export default App;
