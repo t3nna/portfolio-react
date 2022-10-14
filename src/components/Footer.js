@@ -9,7 +9,7 @@ export default function Footer(){
                     <h2 className="created-with | fs-third-heading__neutral">
                         Created with
                     </h2>
-                    <ul role="list" className="footer-list theme-border">
+                    <ul role="list" className="footer-list theme-border-img">
                         <li><a href="#">
                             <img src={background} alt=""/>
                             <h3 className="fs-third-heading__neutral">React</h3>

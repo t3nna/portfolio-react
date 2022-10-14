@@ -6,6 +6,7 @@ const data = [
                 name: 'macbook',
                 link: 'https://amzn.to/3QAeiVb',
                 path: 'macbook',
+                background: '/images/img5.jpg',
 
                 category: 'Laptop Computer',
                 desc:
@@ -17,11 +18,6 @@ const data = [
 
                     ],
 
-
-
-                desc1: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid debitis distinctio dolorem fugiat illo ipsam necessitatibus obcaecati, porro provident vero. Alias corporis deleniti dicta, doloremque dolorum eius esse facere fuga harum maxime minus molestias nostrum numquam odio omnis quae ut.',
-                desc2: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid debitis distinctio dolorem fugiat illo ipsam necessitatibus obcaecati, porro provident vero. Alias corporis deleniti dicta, doloremque dolorum eius esse facere fuga harum maxime minus molestias nostrum numquam odio omnis quae ut.',
-                desc3: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid debitis distinctio dolorem fugiat illo ipsam necessitatibus obcaecati, porro provident vero. Alias corporis deleniti dicta, doloremque dolorum eius esse facere fuga harum maxime minus molestias nostrum numquam odio omnis quae ut.',
                 img: [
                     '/images/img1.jpg',
                     '/images/img2.jpg',
@@ -31,20 +27,24 @@ const data = [
 
                 ],
 
-                img1: '/images/img1.jpg',
-                img2: '/images/img1.jpg',
-                img3: '/images/img1.jpg',
+
             }, {
                 name: 'Pixel 4',
                 path: 'pixel4',
-
+                link: 'https://store.google.com/product/pixel_6_pro',
                 category: 'Laptop Computer',
-                desc1: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid debitis distinctio dolorem fugiat illo ipsam necessitatibus obcaecati, porro provident vero. Alias corporis deleniti dicta, doloremque dolorum eius esse facere fuga harum maxime minus molestias nostrum numquam odio omnis quae ut.',
-                desc2: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid debitis distinctio dolorem fugiat illo ipsam necessitatibus obcaecati, porro provident vero. Alias corporis deleniti dicta, doloremque dolorum eius esse facere fuga harum maxime minus molestias nostrum numquam odio omnis quae ut.',
-                desc3: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid debitis distinctio dolorem fugiat illo ipsam necessitatibus obcaecati, porro provident vero. Alias corporis deleniti dicta, doloremque dolorum eius esse facere fuga harum maxime minus molestias nostrum numquam odio omnis quae ut.',
-                img1: '/images/img1.jpg',
-                img2: '/images/img1.jpg',
-                img3: '/images/img1.jpg',
+                background: '/images/img5.jpg',
+
+                desc: ['Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid debitis distinctio dolorem fugiat illo ipsam necessitatibus obcaecati, porro provident vero. Alias corporis deleniti dicta, doloremque dolorum eius esse facere fuga harum maxime minus molestias nostrum numquam odio omnis quae ut.',
+                      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid debitis distinctio dolorem fugiat illo ipsam necessitatibus obcaecati, porro provident vero. Alias corporis deleniti dicta, doloremque dolorum eius esse facere fuga harum maxime minus molestias nostrum numquam odio omnis quae ut.' ],
+               img: [
+                   '/images/img1.jpg',
+                   '/images/img3.jpg',
+                   '/images/img4.jpg',
+                   '/images/img2.jpg',
+
+
+               ],
             },
 
         ]

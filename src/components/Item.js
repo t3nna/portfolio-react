@@ -28,15 +28,15 @@ export default function Item() {
         <main>
             <section className="item-description theme-border-img">
                 <div className="container flow" style={{"--flow-spacer": 1.5 + "rem"}}>
-                    <img src={background} alt=""/>
-                    <div>
-                        <Link to={rightItem.link} className={'link-accent'}>
+                    <img src={rightItem.background} alt=""/>
+                    <div className={'item-description__title'}>
+                        <a href={rightItem.link} className={'link-accent'}>
                             <h1 className="fs-primary-heading">
                                 {rightItem.name}
                             </h1>
 
-                        </Link>
-                        <p>
+                        </a>
+                        <p className={'fs-400 fw-light'}>
                             Camera
                         </p>
                     </div>

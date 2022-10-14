@@ -7,6 +7,7 @@ import Item from "./components/Item";
 import NotFound from "./components/NotFound";
 import {ThemeContext, ThemeProvider} from "./context/ThemeContext";
 import {useContext} from "react";
+import PathNavigation from "./components/PathNavigation";
 
 function App() {
     const {theme} = useContext(ThemeContext)
@@ -29,6 +30,7 @@ function App() {
                         <Route path={'/items/:name'} element={<Item/>}/>
                         <Route path={'/categories'}>
                             <Route path={'desk'} element={<>
+
 
                                 <MainWithCategories/>
                                 <Footer/>

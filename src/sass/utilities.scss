@@ -92,7 +92,9 @@
   line-height: 1.75rem;
 }
 
-
+.fs-300{
+  font-size: typo.$fs-300;
+}
 
 .fs-400 {
   font-size: typo.$fs-400;
@@ -125,12 +127,12 @@
 
 .link-accent{
   color: inherit;
-  text-decoration-color: orangered;
+  text-decoration-color: variables.$clr-primary-600;
   text-decoration-thickness: 2px;
-  text-underline-offset: 2px;
+  text-underline-offset: 4px;
   font-weight: typo.$fw-medium;
 
   &:hover, &:focus{
-    color: orangered;
+    color: variables.$clr-primary-600;
   }
 }

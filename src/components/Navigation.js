@@ -16,7 +16,6 @@ export default function Navigation() {
         }, [navOpen])
 
 
-
     useClickOutside([buttonRef, openNavRef], outsideHandler)
 
     const handleClickOutside = e => {
@@ -33,7 +32,6 @@ export default function Navigation() {
     const {theme, toggleTheme} = useContext(ThemeContext)
 
 
-
     return (
         <>
             <header className="primary-header">
@@ -41,9 +39,9 @@ export default function Navigation() {
                     <div className="nav-wrapper">
                         <div className="navigation-left">
 
-                            <p className="fw-medium | logo">
-                                <NavLink to={'/'} style={({isActive}) => {
-                                    return isActive ? {color: "wheat"} : {}
+                            <p className="fw-medium fs-500 | logo">
+                                <NavLink to={'/'} className={({isActive}) => {
+                                    return isActive ? "logo__active": undefined
                                 }}>
                                     Some Logo
 
@@ -58,7 +56,7 @@ export default function Navigation() {
                         <div className="navigation-right">
 
 
-                            <div className="theme-toggle" onClick={() =>setDarkTheme(prevState => {
+                            <div className="theme-toggle" onClick={() => setDarkTheme(prevState => {
                                 toggleTheme()
                                 return !prevState
                             })}>
@@ -97,12 +95,29 @@ export default function Navigation() {
                                 </svg>
                                 <span className="visually-hidden">Menu</span>
                             </button>
-                            <nav className="primary-navigation" id="primary-navigation" data-visible={navOpen} ref={openNavRef}>
-                                <ul aria-label="Primary" role="list" className="nav-list">
+                            <nav className="primary-navigation" id="primary-navigation" data-visible={navOpen}
+                                 ref={openNavRef}>
+                                <ul aria-label="Primary" className="nav-list">
                                     <li className="nav-list__info">Categories</li>
-                                    <li><Link to={'/categories/desk'}>Desk</Link></li>
-                                    <li><Link to={'/categories/desk'}>Backpack</Link></li>
-                                    <li><Link to={'/categories/desk'}>Hobby</Link></li>
+                                    <li><NavLink to={'/categories/desk'}
+                                                 className={({isActive}) => {
+                                                     return isActive ? "nav-list__active" : undefined
+                                                 }}
+                                                 onClick={() => setNavOpen(false)}
+                                    >Desk</NavLink></li>
+                                    <li><NavLink
+                                        to={'categories/backpack'}
+                                        className={({isActive}) => {
+                                            return isActive ? "nav-list__active" : undefined
+                                        }}
+                                        onClick={() => setNavOpen(false)}
+                                    >Backpack</NavLink></li>
+                                    <li><NavLink to={'categories/hobby'}
+                                                 className={({isActive}) => {
+                                                     return isActive ? "nav-list__active" : undefined
+                                                 }}
+                                                 onClick={() => setNavOpen(false)}
+                                    >Hobby</NavLink></li>
                                 </ul>
 
 

@@ -7,16 +7,23 @@ import videoWebm from '../images/Church.webm'
 import data from "../data";
 import ListItem from "./ListItem";
 import withCategoriesContent from "./withCategoriesContent";
+import PathNavigation from "./PathNavigation";
 
-const  Main = ({filter}) => {
+const Main = ({filter}) => {
 
-    console.log(useMatch('/'))
+    let path
+    if (!filter) {
+        path = 'index'
+    } else {
+        path = filter
+    }
 
-    const [rightIndexCategory] = data.filter(item => item.type===filter)
-    const [rightCategory] = data.filter(item => item.type==='index')
-    console.log(rightIndexCategory)
 
+    const [rightCategory] = data.filter(item => {
 
+        return item.type === path
+    })
+    console.log(path)
 
 
     return (
@@ -43,18 +50,34 @@ const  Main = ({filter}) => {
 
                 </div>
             </section>
-            <section className="about">
-                <div className="container">
-                    <p className="description">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto ducimus eos error
-                        molestiae natus nemo obcaecati odit quisquam reprehenderit. Ab adipisci alias at deserunt eos
-                        exercitationem expedita harum iste laboriosam libero magni modi nihil nisi non nostrum, numquam
-                        obcaecati odio perspiciatis praesentium quam, quas qui quidem quis reprehenderit saepe suscipit
-                        tempora
-                        ullam unde voluptates.
-                    </p>
-                </div>
-            </section>
+            {
+                path !== 'index' ? (
+
+                    <section>
+                        <div className="container">
+                            <PathNavigation path={filter}/>
+                        </div>
+                    </section>) : (
+
+                    <section className="about">
+                        <div className="container">
+                            <p className="description">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto ducimus
+                                eos error
+                                molestiae natus nemo obcaecati odit quisquam reprehenderit. Ab adipisci alias at
+                                deserunt eos
+                                exercitationem expedita harum iste laboriosam libero magni modi nihil nisi non nostrum,
+                                numquam
+                                obcaecati odio perspiciatis praesentium quam, quas qui quidem quis reprehenderit saepe
+                                suscipit
+                                tempora
+                                ullam unde voluptates.
+                            </p>
+                        </div>
+                    </section>
+
+                )
+            }
             <section>
                 <div className="container">
 
