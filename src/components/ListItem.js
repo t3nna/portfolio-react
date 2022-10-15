@@ -9,7 +9,7 @@ export default function ListItem({itemData}){
             <div className="item-names">
 
                 <h3 className="fs-third-heading">{itemData.name}</h3>
-                <p>Mechanical keyboard</p>
+                <p className={'fw-light fs-300'}>Mechanical keyboard</p>
             </div>
 
         </Link>

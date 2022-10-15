@@ -96,46 +96,7 @@ const Main = ({filter}) => {
 
                         </a>
                         </li>
-                        <li>
-                            <a href="#">
-                                <img src={background} alt=""/>
-                                <div className="item-names">
 
-                                    <h3 className="fs-third-heading">Keychron K2.02</h3>
-                                    <p>Mechanical keyboard</p>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src={background} alt=""/>
-                                <div className="item-names">
-
-                                    <h3 className="fs-third-heading">Keychron K2.02</h3>
-                                    <p>Mechanical keyboard</p>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src={background} alt=""/>
-                                <div className="item-names">
-
-                                    <h3 className="fs-third-heading">Keychron K2.02</h3>
-                                    <p>Mechanical keyboard</p>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src={background} alt=""/>
-                                <div className="item-names">
-
-                                    <h3 className="fs-third-heading">Keychron K2.02</h3>
-                                    <p>Mechanical keyboard</p>
-                                </div>
-                            </a>
-                        </li>
 
                     </ul>
 

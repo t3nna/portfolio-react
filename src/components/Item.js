@@ -57,28 +57,22 @@ export default function Item() {
                         })
                     }
 
-                   {/* <p>
-                        <a href="#" className="link-accent">FUJIFILM X-T4</a>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias animi, ea ex expedita
-                        itaque placeat
-                        vitae! Consectetur deserunt dolorum officia quisquam soluta.
 
-                    </p>
-                    <img src={background} alt=""/>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam consequatur cum
-                        exercitationem id
-                        ipsum maiores perspiciatis reprehenderit sed ullam vero.
 
-                    </p>
-
-                    <p>Lorem ipsum <a href="#" className="link-accent">dolor sit</a> amet, consectetur
-                        adipisicing elit. Doloribus
-                        esse eveniet ipsam iusto qui sed
-                        suscipit! Asperiores aut dolore ducimus eveniet labore natus neque recusandae sed
-                        soluta veniam? A
-                        commodi dolor eos facere fugiat quisquam recusandae reiciendis vero. Aperiam.
-                    </p>*/}
+                    {/*{*/}
+                    {/*    Object.keys(rightItem.posts).map(template_name => {*/}
+                    {/*        return (*/}
+                    {/*            <div>*/}
+                    {/*                <div>{template_name}</div>*/}
+                    {/*                {*/}
+                    {/*                    rightItem.posts[template_name].items.map(item => {*/}
+                    {/*                        return(<div>{item}</div>)*/}
+                    {/*                    })*/}
+                    {/*                }*/}
+                    {/*            </div>*/}
+                    {/*        )*/}
+                    {/*    })*/}
+                    {/*}*/}
 
 
                 </div>

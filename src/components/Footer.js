@@ -13,12 +13,12 @@ export default function Footer(){
                         <li><a href="#">
                             <img src={background} alt=""/>
                             <h3 className="fs-third-heading__neutral">React</h3>
-                            <p>Library for interfaces in JS</p>
+                            <p className={'fw-light fs-300'}>Library for interfaces in JS</p>
                         </a></li>
                         <li><a href="#">
                             <img src={background} alt=""/>
                             <h3 className="fs-third-heading__neutral">Sass</h3>
-                            <p>Framework for Css</p>
+                            <p className={'fw-light fs-300'}>Framework for Css</p>
                         </a></li>
                     </ul>
                     <div className="copyright">

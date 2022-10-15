@@ -9,6 +9,72 @@ const data = [
                 background: '/images/img5.jpg',
 
                 category: 'Laptop Computer',
+                // posts: {
+                //
+                //     template1: {
+                //
+                //         items:
+                //             [
+                //                 'A  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid debitis distinctio dolorem fugiat illo ipsam necessitatibus obcaecati, porro provident vero. Alias corporis deleniti dicta, doloremque dolorum eius esse facere fuga harum maxime minus molestias nostrum numquam odio omnis quae ut.',
+                //                 'B   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid debitis distinctio dolorem fugiat illo ipsam necessitatibus obcaecati, porro provident vero. Alias corporis deleniti dicta, doloremque dolorum eius esse facere fuga harum maxime minus molestias nostrum numquam odio omnis quae ut.',
+                //                 'C   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid debitis distinctio dolorem fugiat illo ipsam necessitatibus obcaecati, porro provident vero. Alias corporis deleniti dicta, doloremque dolorum eius esse facere fuga harum maxime minus molestias nostrum numquam odio omnis quae ut.',
+                //                 'D   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid debitis distinctio dolorem fugiat illo ipsam necessitatibus obcaecati, porro provident vero. Alias corporis deleniti dicta, doloremque dolorum eius esse facere fuga harum maxime minus molestias nostrum numquam odio omnis quae ut.',
+                //             ],
+                //     },
+                //     template2: {
+                //         items: [
+                //             '/images/img1.jpg',
+                //
+                //         ],
+                //
+                //     }
+                //
+                //
+                // },
+
+                desc: ['Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid debitis distinctio dolorem fugiat illo ipsam necessitatibus obcaecati, porro provident vero. Alias corporis deleniti dicta, doloremque dolorum eius esse facere fuga harum maxime minus molestias nostrum numquam odio omnis quae ut.',
+                    'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid debitis distinctio dolorem fugiat illo ipsam necessitatibus obcaecati, porro provident vero. Alias corporis deleniti dicta, doloremque dolorum eius esse facere fuga harum maxime minus molestias nostrum numquam odio omnis quae ut.'],
+                img: [
+                    '/images/img1.jpg',
+                    '/images/img3.jpg',
+                    '/images/img4.jpg',
+                    '/images/img2.jpg',
+
+
+                ],
+
+
+            }, {
+                name: 'Pixel 4',
+                path: 'pixel4',
+                link: 'https://store.google.com/product/pixel_6_pro',
+                category: 'Laptop Computer',
+                background: '/images/img5.jpg',
+
+                desc: ['Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid debitis distinctio dolorem fugiat illo ipsam necessitatibus obcaecati, porro provident vero. Alias corporis deleniti dicta, doloremque dolorum eius esse facere fuga harum maxime minus molestias nostrum numquam odio omnis quae ut.',
+                    'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid debitis distinctio dolorem fugiat illo ipsam necessitatibus obcaecati, porro provident vero. Alias corporis deleniti dicta, doloremque dolorum eius esse facere fuga harum maxime minus molestias nostrum numquam odio omnis quae ut.'],
+                img: [
+                    '/images/img1.jpg',
+                    '/images/img3.jpg',
+                    '/images/img4.jpg',
+                    '/images/img2.jpg',
+
+
+                ],
+            },
+
+        ]
+    },
+    {
+        type: 'desk',
+        items: [
+            {
+                name: 'Monitor Dell',
+                link: 'https://amzn.to/3QAeiVb',
+                path: 'monitor-dell',
+                background: '/images/img7.jpg',
+
+                category: 'Gadgets',
                 desc:
                     [
                         'A  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid debitis distinctio dolorem fugiat illo ipsam necessitatibus obcaecati, porro provident vero. Alias corporis deleniti dicta, doloremque dolorum eius esse facere fuga harum maxime minus molestias nostrum numquam odio omnis quae ut.',
@@ -29,6 +95,98 @@ const data = [
 
 
             }, {
+                name: 'Laptop Stand',
+                path: 'laptop-stand',
+                link: 'https://store.google.com/product/pixel_6_pro',
+                category: 'Accessories',
+                background: '/images/img2.jpg',
+
+                desc: ['Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid debitis distinctio dolorem fugiat illo ipsam necessitatibus obcaecati, porro provident vero. Alias corporis deleniti dicta, doloremque dolorum eius esse facere fuga harum maxime minus molestias nostrum numquam odio omnis quae ut.',
+                    'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid debitis distinctio dolorem fugiat illo ipsam necessitatibus obcaecati, porro provident vero. Alias corporis deleniti dicta, doloremque dolorum eius esse facere fuga harum maxime minus molestias nostrum numquam odio omnis quae ut.'],
+                img: [
+                    '/images/img3.jpg',
+                    '/images/img6.jpg',
+                    '/images/img1.jpg',
+                    '/images/img7.jpg',
+
+
+                ],
+            },
+
+        ]
+
+    }, {
+        type: 'backpack',
+        items: [
+            {
+                name: 'Meizu Backpack',
+                link: 'https://amzn.to/3QAeiVb',
+                path: 'meizu-backpack',
+                background: '/images/img3.jpg',
+
+                category: 'Accessories',
+                desc:
+                    [
+                        'A  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid debitis distinctio dolorem fugiat illo ipsam necessitatibus obcaecati, porro provident vero. Alias corporis deleniti dicta, doloremque dolorum eius esse facere fuga harum maxime minus molestias nostrum numquam odio omnis quae ut.',
+                        'B   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid debitis distinctio dolorem fugiat illo ipsam necessitatibus obcaecati, porro provident vero. Alias corporis deleniti dicta, doloremque dolorum eius esse facere fuga harum maxime minus molestias nostrum numquam odio omnis quae ut.',
+                        'C   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid debitis distinctio dolorem fugiat illo ipsam necessitatibus obcaecati, porro provident vero. Alias corporis deleniti dicta, doloremque dolorum eius esse facere fuga harum maxime minus molestias nostrum numquam odio omnis quae ut.',
+                        'D   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid debitis distinctio dolorem fugiat illo ipsam necessitatibus obcaecati, porro provident vero. Alias corporis deleniti dicta, doloremque dolorum eius esse facere fuga harum maxime minus molestias nostrum numquam odio omnis quae ut.',
+
+                    ],
+
+                img: [
+                    '/images/img4.jpg',
+                    '/images/img2.jpg',
+                    '/images/img1.jpg',
+
+                ],
+
+
+            }, {
+                name: 'Baseus Power Bank',
+                path: 'baseus-power-bank',
+                link: 'https://store.google.com/product/pixel_6_pro',
+                category: 'Gadgets',
+                background: '/images/img1.jpg',
+
+                desc: ['Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid debitis distinctio dolorem fugiat illo ipsam necessitatibus obcaecati, porro provident vero. Alias corporis deleniti dicta, doloremque dolorum eius esse facere fuga harum maxime minus molestias nostrum numquam odio omnis quae ut.',
+                    'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid debitis distinctio dolorem fugiat illo ipsam necessitatibus obcaecati, porro provident vero. Alias corporis deleniti dicta, doloremque dolorum eius esse facere fuga harum maxime minus molestias nostrum numquam odio omnis quae ut.'],
+                img: [
+                    '/images/img1.jpg',
+
+
+                ],
+            },
+
+        ]
+
+    }, {
+        type: 'hobby',
+        items: [
+            {
+                name: 'Yamaha guitar',
+                link: 'https://amzn.to/3QAeiVb',
+                path: 'yamaha-guitar',
+                background: '/images/img6.jpg',
+
+                category: 'Music',
+                desc:
+                    [
+                        'A  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid debitis distinctio dolorem fugiat illo ipsam necessitatibus obcaecati, porro provident vero. Alias corporis deleniti dicta, doloremque dolorum eius esse facere fuga harum maxime minus molestias nostrum numquam odio omnis quae ut.',
+                        'B   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid debitis distinctio dolorem fugiat illo ipsam necessitatibus obcaecati, porro provident vero. Alias corporis deleniti dicta, doloremque dolorum eius esse facere fuga harum maxime minus molestias nostrum numquam odio omnis quae ut.',
+                        'C   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid debitis distinctio dolorem fugiat illo ipsam necessitatibus obcaecati, porro provident vero. Alias corporis deleniti dicta, doloremque dolorum eius esse facere fuga harum maxime minus molestias nostrum numquam odio omnis quae ut.',
+
+                    ],
+
+                img: [
+                    '/images/img4.jpg',
+                    '/images/img3.jpg',
+                    '/images/img1.jpg',
+
+                ],
+
+
+            }, {
                 name: 'Pixel 4',
                 path: 'pixel4',
                 link: 'https://store.google.com/product/pixel_6_pro',
@@ -36,103 +194,15 @@ const data = [
                 background: '/images/img5.jpg',
 
                 desc: ['Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid debitis distinctio dolorem fugiat illo ipsam necessitatibus obcaecati, porro provident vero. Alias corporis deleniti dicta, doloremque dolorum eius esse facere fuga harum maxime minus molestias nostrum numquam odio omnis quae ut.',
-                      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid debitis distinctio dolorem fugiat illo ipsam necessitatibus obcaecati, porro provident vero. Alias corporis deleniti dicta, doloremque dolorum eius esse facere fuga harum maxime minus molestias nostrum numquam odio omnis quae ut.' ],
-               img: [
-                   '/images/img1.jpg',
-                   '/images/img3.jpg',
-                   '/images/img4.jpg',
-                   '/images/img2.jpg',
+                    'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid debitis distinctio dolorem fugiat illo ipsam necessitatibus obcaecati, porro provident vero. Alias corporis deleniti dicta, doloremque dolorum eius esse facere fuga harum maxime minus molestias nostrum numquam odio omnis quae ut.'],
+                img: [
+                    '/images/img1.jpg',
+                    '/images/img3.jpg',
+                    '/images/img4.jpg',
+                    '/images/img2.jpg',
 
 
-               ],
-            },
-
-        ]
-    },
-    {
-        type: 'desk',
-        items: [
-            {
-                name: 'Dell Monitor ',
-                path: 'dell-monitor',
-
-                category: 'Laptop Computer',
-                desc1: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid debitis distinctio dolorem fugiat illo ipsam necessitatibus obcaecati, porro provident vero. Alias corporis deleniti dicta, doloremque dolorum eius esse facere fuga harum maxime minus molestias nostrum numquam odio omnis quae ut.',
-                desc2: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid debitis distinctio dolorem fugiat illo ipsam necessitatibus obcaecati, porro provident vero. Alias corporis deleniti dicta, doloremque dolorum eius esse facere fuga harum maxime minus molestias nostrum numquam odio omnis quae ut.',
-                desc3: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid debitis distinctio dolorem fugiat illo ipsam necessitatibus obcaecati, porro provident vero. Alias corporis deleniti dicta, doloremque dolorum eius esse facere fuga harum maxime minus molestias nostrum numquam odio omnis quae ut.',
-                img1: '/images/img1.jpg',
-                img2: '/images/img1.jpg',
-                img3: '/images/img1.jpg',
-            },
-            {
-                name: 'Pixel 4',
-                path: 'pixel4',
-
-                category: 'Laptop Computer',
-                desc1: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid debitis distinctio dolorem fugiat illo ipsam necessitatibus obcaecati, porro provident vero. Alias corporis deleniti dicta, doloremque dolorum eius esse facere fuga harum maxime minus molestias nostrum numquam odio omnis quae ut.',
-                desc2: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid debitis distinctio dolorem fugiat illo ipsam necessitatibus obcaecati, porro provident vero. Alias corporis deleniti dicta, doloremque dolorum eius esse facere fuga harum maxime minus molestias nostrum numquam odio omnis quae ut.',
-                desc3: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid debitis distinctio dolorem fugiat illo ipsam necessitatibus obcaecati, porro provident vero. Alias corporis deleniti dicta, doloremque dolorum eius esse facere fuga harum maxime minus molestias nostrum numquam odio omnis quae ut.',
-                img1: '/images/img1.jpg',
-                img2: '/images/img1.jpg',
-                img3: '/images/img1.jpg',
-            },
-
-        ]
-    }, {
-        type: 'backpack',
-        items: [
-            {
-                name: 'Meizu',
-                path: 'meizu',
-
-                category: 'Laptop Computer',
-                desc1: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid debitis distinctio dolorem fugiat illo ipsam necessitatibus obcaecati, porro provident vero. Alias corporis deleniti dicta, doloremque dolorum eius esse facere fuga harum maxime minus molestias nostrum numquam odio omnis quae ut.',
-                desc2: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid debitis distinctio dolorem fugiat illo ipsam necessitatibus obcaecati, porro provident vero. Alias corporis deleniti dicta, doloremque dolorum eius esse facere fuga harum maxime minus molestias nostrum numquam odio omnis quae ut.',
-                desc3: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid debitis distinctio dolorem fugiat illo ipsam necessitatibus obcaecati, porro provident vero. Alias corporis deleniti dicta, doloremque dolorum eius esse facere fuga harum maxime minus molestias nostrum numquam odio omnis quae ut.',
-                img1: '/images/img1.jpg',
-                img2: '/images/img1.jpg',
-                img3: '/images/img1.jpg',
-            },
-            {
-                name: 'Pixel 4',
-                path: 'pixel4',
-
-                category: 'Laptop Computer',
-                desc1: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid debitis distinctio dolorem fugiat illo ipsam necessitatibus obcaecati, porro provident vero. Alias corporis deleniti dicta, doloremque dolorum eius esse facere fuga harum maxime minus molestias nostrum numquam odio omnis quae ut.',
-                desc2: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid debitis distinctio dolorem fugiat illo ipsam necessitatibus obcaecati, porro provident vero. Alias corporis deleniti dicta, doloremque dolorum eius esse facere fuga harum maxime minus molestias nostrum numquam odio omnis quae ut.',
-                desc3: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid debitis distinctio dolorem fugiat illo ipsam necessitatibus obcaecati, porro provident vero. Alias corporis deleniti dicta, doloremque dolorum eius esse facere fuga harum maxime minus molestias nostrum numquam odio omnis quae ut.',
-                img1: '/images/img1.jpg',
-                img2: '/images/img1.jpg',
-                img3: '/images/img1.jpg',
-            },
-
-        ]
-    }, {
-        type: 'computing',
-        items: [
-            {
-                name: 'Macbook',
-                path: 'Macbook',
-
-                category: 'Laptop Computer',
-                desc1: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid debitis distinctio dolorem fugiat illo ipsam necessitatibus obcaecati, porro provident vero. Alias corporis deleniti dicta, doloremque dolorum eius esse facere fuga harum maxime minus molestias nostrum numquam odio omnis quae ut.',
-                desc2: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid debitis distinctio dolorem fugiat illo ipsam necessitatibus obcaecati, porro provident vero. Alias corporis deleniti dicta, doloremque dolorum eius esse facere fuga harum maxime minus molestias nostrum numquam odio omnis quae ut.',
-                desc3: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid debitis distinctio dolorem fugiat illo ipsam necessitatibus obcaecati, porro provident vero. Alias corporis deleniti dicta, doloremque dolorum eius esse facere fuga harum maxime minus molestias nostrum numquam odio omnis quae ut.',
-                img1: '/images/img1.jpg',
-                img2: '/images/img1.jpg',
-                img3: '/images/img1.jpg',
-            },
-            {
-                name: 'Pixel 4',
-                path: 'Pixel 4',
-
-                category: 'Laptop Computer',
-                desc1: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid debitis distinctio dolorem fugiat illo ipsam necessitatibus obcaecati, porro provident vero. Alias corporis deleniti dicta, doloremque dolorum eius esse facere fuga harum maxime minus molestias nostrum numquam odio omnis quae ut.',
-                desc2: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid debitis distinctio dolorem fugiat illo ipsam necessitatibus obcaecati, porro provident vero. Alias corporis deleniti dicta, doloremque dolorum eius esse facere fuga harum maxime minus molestias nostrum numquam odio omnis quae ut.',
-                desc3: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid debitis distinctio dolorem fugiat illo ipsam necessitatibus obcaecati, porro provident vero. Alias corporis deleniti dicta, doloremque dolorum eius esse facere fuga harum maxime minus molestias nostrum numquam odio omnis quae ut.',
-                img1: '/images/img1.jpg',
-                img2: '/images/img1.jpg',
-                img3: '/images/img1.jpg',
+                ],
             },
 
         ]
